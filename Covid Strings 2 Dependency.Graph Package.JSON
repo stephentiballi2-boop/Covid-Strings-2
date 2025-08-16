@@ -1,6 +1,51 @@
+<doctype.html>
+<html lang en>
+<script>
+<header.html>
+heading for heading variables
+the place where heading and subheading variables go 
+heading1=dependency graph
+heading2=graph title
+heading3=dependencies
+heading4=covid strings directed acyclic graph
+subheading1=vertices
+subheading2=edges
+subheading3=map check
+subheading4=node installing
+subheading5=nodes
+subheading6=dependency graph sorting
+subheading7=dependency graph production
+filename=covid strings2 dependency graph.js
+<header.html>
+dependency graph 
+the graph in covid strings where dependencies can be tracked 
+dependency graph 
+constructor
+this.graph=newMap();
+addnode(node)
+if(this graph.has(node))
+this.graph.set(node,[])
+add dependency(node,dependency)
+if(this graph.has (node))
+this.graph.set(node,[])
+if(this graph.has (dependency))
+this.graph.addnode(dependency)
+this.graph.get(node).push(dependency)
+get dependencies(node)
+return this.graph.get(node).
+displaygraph ()
+for (const [node,dependencies] of this graph.entries())
+console.log [node->[dependencies.join (‘,’)]
+<header.html>
+graph title 
+the section at the top of the graph where the name is 
+title covid strings2 dependency graph
 class graph 
 constructor(){
-this.map=new Map
+this.map=new map
+<subheading.html>
+vertices
+the dependencies in covid strings that have sides
 add vertex(vertex)
 this.map.set (vertex,[ ] ));
 addedge(source,direction,bidirectional)
@@ -13,6 +58,9 @@ if (bidirectional)
 this.map.get(destination).push(source)
 getvertex count()
 console.log(‘the graph has ${this.map.size}vertex’)
+<subheading.html>
+edges 
+the lines that are considered an edge on the graph 
 get edgescount(bidirectional)
 let count=0
 for(const edges of this. map.values ())
@@ -20,7 +68,10 @@ count+=edges.length
 if(bidirectional)
 count/=2;
 console.log(‘the graph has$ {count} edges.’)
-hasVertex(vertex)
+<subheading.html>
+map check
+the code designed to check how a map in a dependency graph is working 
+hasvertex(vertex)
 if(this.map.has(vertex))
 console.log(‘the graph contains ${vertex} as a vertex’)
 else
@@ -34,12 +85,17 @@ let result=””
 for(const[vertex,edges] of this.map.entries())
 result+=${‘vertex}:{edges.join(“”)}/n’
 return result;
+<header.html>
 dependencies
+the units in covid strings that are dependent on the game 
 create x and y axis for questions and answers
 create separate color code of green for correct answers and red for incorrect answers
 due to other team stealing rule only change an incorrect answer to red  if the team with the chance to steal gets the question wrong
 create intervals of 1 for questions and 10 for points 
 for fan voting create separate graph to track percent of votes for each question
+<subheading.html>
+node installing 
+the method used to install node within the dependency graph 
 express ^node js 20
 npm install <app store->  - d 
 npm install jest - - save 
@@ -52,3 +108,71 @@ lint
 npm install=  - -  only production
 npm test
 npm deploy  
+<header.html>
+covid strings directed acyclic graph
+the type of dependency graph used on covid strings
+dependency graph with cycle check extends dependency graph
+<subheading.html>
+nodes
+the types of nodes used in the dependency graph 
+has cycleutil(node,visited,stack)
+if (!visited[node])
+visited [node]=true
+stack [node]=true
+for (const dependencies of this graph.get dependencies(node))
+if (!visited [dependency] && this.hascycleutil(dependency,visitedstack))
+return true
+else if (stack [dependency])
+return true
+stack[node]=false
+return false
+has cycle(){
+visited={}
+stack={}
+for (const node of this graph.keys())
+if(thishas cycle.util(node,visited,stack)
+return true
+else:
+return false
+<subheading.html>
+dependency graph sorting
+the process behind sorting a dependency graph
+dependency graph with top sort extends dependency graph
+topologicalsort()
+visited=new set()
+stack={}
+visit=(node)
+if (!visited has[node])
+visited.add (node)
+for (const dependencies of this graph.get dependencies(node))
+visit (dependency)
+stack.push(node)
+for (const node of this graph.keys())
+return stack.reverse()
+<subheading.html>
+dependency graph production
+the final step in publishing a dependency graph
+class dependencygraph
+constructor
+this.graph=new map
+addnode(node)
+if (!this.graph.has node).thisadd(node)
+if (!this.graph.has dependency).Thisaddnode(dependency)
+this graph.get(node).push(dependency)
+resolvedependencies
+visited=new set
+stack=[]
+tempmark=new set
+Visit=(node)
+if (tempmark.has(node))
+tempmark.add(node)
+for(const dependencies of this graph get(node))
+visit (dep)
+temmark.delete(node)
+visited.add(node)
+stack.push(node)
+for (const node of this graph.keys()) 
+if (!visitedhas node)
+visit(node)
+return stack.reverse 
+return filename
