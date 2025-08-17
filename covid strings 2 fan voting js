@@ -1,0 +1,679 @@
+<doctype.html>
+<html lang en>
+<script>
+<header.html>
+heading for heading variables 
+the heading humbers that determine where each heading and subheading go 
+heading1=fan voting rounds
+heading2=string voting
+heading3=result
+heading4=non-concatenated string variables
+heading5=concatenated string variables
+heading6=second round
+heading7=rhird round
+heading8=fourth round
+heading9=fifth round
+subheading1=covid strings first round matchups
+subheading2=first round non-concatenated string advancing
+subheading3=first round concatenated string advancing
+subheading4=second round non-concatenated string advancing
+subheading5=second round concatenated string advancing
+subheading6=third round non-concatenated string advancing
+subheading7=third round concatenated string advancing
+subheading8=fourth round non-concatenated string advancing
+subheading9=fourth round concatenated string advancing
+subheading10=covid strings fan voting victory
+filename=covid strings2 fan voting js
+<meta charset utf-8>
+<meta name “viewport” content=”width=device-width,inital scale 1>
+<title covid strings2 fan voting</title>
+<style>
+vote button
+margin:5px;
+padding:10px;
+background-color:4caf50
+color:white;
+border:none;
+cursor:pointer;
+vote button.hover
+background color 45a049
+</style>
+</head>
+<header.html>
+fan voting rounds
+the number of rounds overall in covid strings fan voting
+total entry limit=32
+non-concatenated string limit=16
+concatenated string limit=16
+amount of rounds=math.log(entry limit)/math.log(2) 
+for (i=amount_ of_ rounds;-I>0;I- -)
+s=round+(amount_ of_ rounds;i+1)+’ of amount_ of_ rounds consist of ‘math.pow(2,i-1)+matches’;
+<h1 vote for your favorite string>
+<h1 vote for your favorite string>
+<header.html>
+string voting
+the processes by which a user votes for their favorite string
+<button class=vote button on click “vote” (‘string 1’) <string pair button>
+<button class=vote button on click “vote” (‘string 2’) <string pair button>
+<button class=vote button on click “vote” (‘string 3’) <string pair button>
+<button class=vote button on click “vote” (‘string 4’) <string pair button>
+<button class=vote button on click “vote” (‘string 5’) <string pair button>
+<button class=vote button on click “vote” (‘string 6’) <string pair button>
+<button class=vote button on click “vote” (‘string 7’) <string pair button>
+<button class=vote button on click “vote” (‘string 8’) <string pair button>
+<button class=vote button  on click “vote” (‘string 9’)<string pair button>
+<button class=vote button on click “vote” (‘string 10’) <string pair button>
+<button class=vote button  on click “vote” (‘string 11’) <string pair button>
+<button class=vote button on click “vote” (‘string 12’) <string pair button>
+<button class=vote button on click “vote” (‘string 13’) <string pair button>
+<button class=vote button on click “vote” (‘string 14’) <string pair button>
+<button class=vote button on click “vote” (‘string 15’) <string pair button>
+<button class= vote button  on click “vote” (‘string 16’)<string pair button>
+<header.html>
+first round 
+the first round in covid strings fan voting
+render round
+roundcontainer.innerhtml=<h1 round {first round} <h1>
+candidates foreach((candidate,index)
+candidatediv.innerhtml
+<p> {candidate name} {candidate votes} votes </p>
+<button on click= “vote {index} >”vote for {candidate name} </button>
+round container.appendchild(candidatediv)
+add event listener (‘dom content loaded ,()
+let current round=1
+total rounds= 5
+round container=document.get element by id(‘round-container’)
+nextroundbutton=document.get element by id(‘next-round’)
+window open 
+window vote function(index)
+candidates [index] votes++
+commence round.addeventlistener(click)
+if current round==round 1:
+commence round 1
+else:
+remain 
+<subheading.html>
+covid strings first round matchups
+the matchups that appear in the first round of covid strings fan voting 
+<div class=”matchup”
+concatenated strings 
+matchup1=string 1 vs string 16
+<button id vote string 1 “vote for string 1” </button>
+<button id vote string 16 “vote for string 16” </button>
+<div class =”results”>
+<p> string 1 <span id= “votes string 1 >0</span> votes <p>
+<p> string 16 <span id= “votes string 16 >0</span> votes <p>
+matchup2=string 8 vs string 9
+<button id vote string 8 “vote for string 8” </button>
+<button id vote string 9 “vote for string 9”  </button>
+<div class =”results”>
+<p> string 8 <span id= “votes string 8 >0</span> votes <p>
+<p> string 9 <span id= “votes string 9 >0</span> votes <p>
+<div>
+matchup3=string 7 vs string 10
+<button id vote string 7 “vote For String 7”  </button>
+<button id vote string 10 “vote For String 10”  </button>
+<div class =”results”>
+<p> string 7 <span id= “votes string 7 >0</span> votes <p>
+<p> string 10 <span id= “votes string 10 >0</span> votes <p>
+<div>
+matchup4=string 5 vs string 12
+<button id vote string 5 “vote for string 5” </button>
+<button id vote string 12 “vote for string 12” </button>
+<div class =”results”>
+<p> string 5 <Span Id= “Votes String 5 >0</Span> Votes <P>
+<p> string 12 <Span Id= “Votes String 12 >0</Span> votes <p>
+<Div>
+matchup5=string 3 vs string 14
+<button id vote string 3 “vote for string 3” </button>
+<button id vote string 14 “vote for string 14” </button>
+<div class =”results”>
+<p>string 3 <span id= “votes string 3 >0</span> votes <p>
+<p>string 14 <span id= “votes string 14 >0</span> votes <p>
+<div>
+matchup6=string 4 vs string 13
+<button id vote string 4 “vote for string 4”  </button>
+<button Id vote string 13 “vote for string 13” </button>
+<div class =”results”>
+<p> string 4 <span id= “votes string 4 >0</span> votes <p>
+<p> string 13 <span id= “votes string 13 >0</span> votes <p>
+<div>
+matchup7=string 2 Vs string 15
+<button id vote string 2 “vote for string 2” </button>
+<button id vote string 15 “vote for string 15” </button>
+<Div Class =”Results”>
+<P> String 2 <Span Id= “Votes String 2 >0</Span> Votes <P>
+<P> String 15 <Span Id= “Votes String 15 >0</Span> Votes <P>
+<Div>
+Matchup8=String 6 Vs String 11
+<Button Id Vote String 6 “Vote For String 6”  </Button>
+<Button Id Vote String 11 “Vote For String 11”  </Button>
+<Div Class =”Results”>
+<P> String 6 <Span Id= “ Votes String 6 >0</Span> Votes <P>
+<P> String 11 <Span Id= “ Votes String 11 >0</Span> Votes <P>
+<Div>
+Non-Concatenated Strings 
+Matchup1= String 3 Vs String 14
+<Button Id Vote String 3 “Vote For String 3”  </Button>
+<Button Id Vote String 14 “Vote For String 14”  </Button>
+<Div Class =”Results”>
+<P> String 3 <Span Id= “Votes String 3 >0</Span> Votes <P>
+<P> String 14 <Span Id= “Votes String 14 >0</Span> Votes <P>
+<Div>
+Matchup2=String 6 Vs String 11
+<Button Id Vote String 6 “Vote For String 6”  </Button>
+<Button Id Vote String 11 “Vote For String 11”  </Button>
+<Div Class =”Results”>
+<P> String 6 <Span Id= “Votes String 6 >0</Span> Votes <P>
+<P> String 11 <Span Id= “Votes String 11 >0</Span> Votes <P>
+<Div>
+Matchup3 =String 8 Vs String 9
+<Button Id Vote String 8 “Vote For String 8” </Button>
+<Button Id Vote String 9 “Vote For String 9” </Button>
+<Div Class =”Results”>
+<P> String 8 <Span Id= “Votes String 8 >0</Span> Votes <P>
+<P> String 9 <Span Id= “ Votes String 9 >0</Span> Votes <P>
+<Div>
+Matchup4 String 7 Vs String 10
+<Button Id Vote String 7 “Vote For String 7”  </Button>
+<Button Id Vote String 10 “Vote For String 10”  </Button>
+<Div Class =”Results”>
+<P> String 7 <Span Id= “Votes String 7 >0</Span> Votes <P>
+<P> String 10 <Span Id= “Votes String 10 >0</Span> Votes <P>
+<Div>
+Matchup5=String 5 Vs String 12
+<Button Id Vote String 5 “Vote For String 5” </Button>
+<Button Id Vote String 12 “Vote For String 12”  </Button>
+<Div Class =”Results”>
+<P> String 5 <Span Id= “Votes String 5 >0</Span> Votes <P>
+<P> String 12 <Span Id= “Votes String 12 >0</Span> Votes <P>
+<Div>
+Matchup6=String 4 Vs String 13
+<Button Id Vote String 4 “Vote For String 4”  </Button>
+<Button Id Vote String 13 “Vote For String 13”  </Button>
+<Div Class =”Results”>
+<P> String 4 <Span Id= “Votes String 4 >0</Span> Votes <P>
+<P> String 13 <Span Id= “Votes String 13 >0</Span> Votes <P>
+<Div>
+Matchup7=String 1 Vs String 16
+<Button Id Vote String 1 “Vote For String 1” </Button>
+<Button Id Vote String 16 “Vote For String 16” </Button>
+<Div Class =”Results”>
+<P> String 1 <Span Id= “Votes String 1 >0</Span> Votes <P>
+<P> String 16 <Span Id= “Votes String 16 >0</Span> Votes <P>
+<Div>
+Matchup8= String 2 Vs String 15
+<Button Id Vote String 2 “Vote For String 2”  </Button>
+<Button Id Vote String 15 “Vote For String 15” </Button>
+<Div Class =”Results”>
+<P> String 2 <Span Id= “Votes String 2 >0</Span> Votes <P>
+<P> String 15 <Span Id= “Votes String 15 >0</Span> Votes <P>
+<Div>
+<H2 Id =”Result”></H2>
+<Header.Html>
+Result
+The End Result Of Voting On A Particular Pair Of Strings
+<Script Src=”Vote.Js”></
+<Script>
+<Body>
+<Html>
+Vote Js File Notes:
+Votes={
+‘String 1
+‘String 2’
+Vote (String)
+If (Votes.HasOwnProperty(Character))
+Votes [Character]++
+Display Results
+Else:
+Console.Error(‘Invalid String’)
+DisplayResults
+Result Element=Document Get Element By Id (‘Result’)
+Result Element Inner Html
+<Header.Html>
+Non-Concatenated String Variables 
+Non-Concatenated Strings In Covid Strings
+Non-Concatenated Strings List=[Phrase “Talk About Staying At Home Lasts Shooter Than A Soda Can On Venus”, Phrase ” I Am Not A Super Spreader I Am A Supra Spreader”, Phrase  “No Sun Cubed Does Not Kill Viruses”,  Phrase “Elon Musk Is Wrong Take The Purple Pill”,  Phrase “Nothing Labeled Dexie Turns You Into Benjamin Button”, Phrase “Aaron Rodgers Proves The Coverup Is Worse Than The Crime”, Math Problem “If Aaron Rodgers Decided Two Weeks Later That He Would Get A Johnson And Johnson Vaccine How Soon After Getting Vaccinated Can He Play”, Phrase “AstraZeneca Is  Only Slightly Better Than The Saturn Astra” , Math Problem “The Local Flag Day In Town Has Been Postponed Due To An Outbreak Of The Omicron Variant If The Guidelines Say The Positivity Rate Can Be Not Greater Than Six And Quarter Percent Can The Event Happen On The New Date Of June 17Th”, “Mdx Does Not Mean Medical Doctors Prescription”,  Math Problem “If Former President Trump Shared 14 Covid Misinformation Posts Over A Period Of  2 Days How Many Posts Per Day Did Trump Share?”, Math Problem “If The Same Town Decided To Have A Juneteenth Celebration And The Same Guidelines Regarding Positivity Were Used Could Juneteenth Be Held If The Rate Was Five And One Fiftieth Percent?”, Math Problem ”If A Study Found That “Immunization” Increases The Likelihood That One Would Decline Vaccination By 65% What Could Get Done To Convince Skeptical People”,  Math Problem “This Same Study Found That When Asked About What Party They Would Vote For In The Midterms 71% Of People Who Were “Immunized Would Vote Republican Whereas 80% Of People Who Say They Were Vaccinated Vote Democrat If The Margin Of Error Is 2.9% What Is The Range?”, Sentence “Vitamin D Exposure Is One Way To Boost Immunity”, Sentence  “Work From Home Is Not Just For Famous People”  ]
+Non-Concatenated String1=Phrase ”Talk About Staying At Home Lasts Shooter Than A Soda Can On Venus”
+Non-Concatenated String2=Phrase “I Am Not A Super Spreader I Am A Supra Spreader”
+Non-Concatenated String3=”Phrase No Sun Cubed Does Not Kill Viruses”
+Non-Concatenated String4=Phrase “Elon Musk Is Wrong Take The Purple Pill”
+Non-Concatenated String5=Phrase “Nothing Labeled Dexie Turns You Into Benjamin Button”
+Non-Concatenated String6= Phrase ”Aaron Rodgers Proves The Coverup Is Worse Than The Crime”
+Non-Concatenated String7=“ Math Problem If Aaron Rodgers Decided Two Weeks Later That He Would Get A Johnson And Johnson Vaccine How Soon After Getting Vaccinated Can He Play”
+Non-Concatenated String8=Phrase “AstraZeneca Is Only Slightly Better Than The Saturn Astra”
+Non-Concatenated String9= Math Problem “The Local Flag Day In Town Has Been Postponed Due To An Outbreak Of The Omicron Variant If The Guidelines Say The Positivity Rate Can Be Not Greater Than Six And Quarter Percent Can The Event Happen On The New Date Of June 17Th?”
+Non-Concatenated String10= Phrase ”Mdx Does Not Mean Medical Doctors Prescription”
+Non-Concatenated String11=Math Problem “If Former President Trump Shared 14 Covid Misinformation Posts Over A Period Of 2 Days How Many Posts Per Day Did Trump Share?”
+Non-Concatenated String12=Math Problem “If The Same Town Decided To Have A Juneteenth Celebration And The Same Guidelines Regarding Positivity Were Used Could Juneteenth Be Held If The Rate Was Five And One Fiftieth Percent?”
+Non-Concatenated String13=Math Problem ”If A Study Found That “Immunization” Increases The Likelihood That One Would Decline Vaccination By 65% What Could Get Done To Convince Skeptical People”,
+Non-Concatenated String14=Math Problem “This Same Study Found That When Asked About What Party They Would Vote For In The Midterms 71% Of People Who Were “Immunized Would Vote Republican Whereas 80% Of People Who Say They Were Vaccinated Vote Democrat If The Margin Of Error Is 2.9% What Is The Range?”
+Non-Concatenated String15=Sentence “Vitamin D Exposure Is One Way To Boost Immunity”
+Non-Concatenated String16=Sentence“Work From Home Is Not Just For Famous People” 
+Chapter=Document.Queryselector(Chapter)
+Chapter Inner Html
+Replace ‘ With/ 
+For Apostrophe In Covid Strings2Fan Voting
+Select Characters
+Edit Diffuse Property
+Desired Color=Green
+<P>String 1[Votes ‘String 1 ‘]}Votes</P>
+<P>String 2[Votes ‘String 2 ‘]}Votes</P>
+<P>String 3 [Votes ‘String 3 ‘]}Votes</P>
+<P>String 4 [Votes ‘String 4 ‘]}Votes</P>
+<P>String 5[Votes ‘String 5 ‘]}Votes</P>
+<P>String 6[Votes ‘String 6 ‘]}Votes</P>
+<P>String 7 [Votes ‘String 7 ‘]}Votes</P>
+<P>String 8[Votes ‘String 8 ‘]}Votes</P>
+<P>String 9 [Votes ‘String 9 ‘]}Votes</P>
+<P>String 10 [Votes ‘String 10 ‘]}Votes</P>
+<P>String 11[Votes ‘String 11 ‘]}Votes</P>
+<P>String 12 [Votes ‘String 12 ‘]}Votes</P>
+<P>String 13 [Votes ‘String 13 ‘]}Votes</P>
+<P>String 14 [Votes ‘String 14 ‘]}Votes</P>
+<P>String 15 [Votes ‘String 15 ‘]}Votes</P>
+<P>String 16 [Votes ‘String 16 ‘]}Votes</P>
+<Subheading.Html>
+First Round Non-Concatenated String Advancing 
+The Code Designed To Advancing Winning Non-Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings= Sorted Strings.Slice(0,Num To 8)
+Return Advancing Strings 
+If Result Matchup1>=.5
+If Result Matchup2>=.5
+If Result Matchup3>=.5
+If Result Matchup4>=.5
+If Result Matchup5>=.5
+If Result Matchup6>=.5
+If Result Matchup7>=.5
+If Result Matchup8>=.5
+<Header.Html>
+Concatenated String Variables
+Concatenated Strings In Covid Strings
+Concatenated String List=[Phrase “No”+”Covid”+”Was”+”Not”+”Cheated”+”Out”+”Of”+”The+”2020”+”Election”, Phrase “Work”+”From”+”Home”+”Is”+”Not”+”Just”+”For”+”Rihanna”, Phrase “No”+”Corona”+”Beer”+”Has”+”Nothing”+”To”+”Do”+”With”+”Corona”+”Virus”, Phrase “It”+”Is”+”Not”+”Fifth”+”Harmonies”+”Right”+”Either”, Phrase ”At”+”Least”+”60”+”Minutes”+”Of”+”Excercise”+”Also”+”Helps”, Math Problem ”If”+”A”+”Local”+”Stores”+”Vitamin”+”D”+”Supply”+”Of”+”100”+”Is”+”Sold”+”Out”+”300”+”Percent”+”After”+”A”+”Local”+”Influencer”+”Says”+”It”+”Works”+”Like”+”A”+”Charm”+”How”+”Many”+”People”+”Out”+”Of”+”1000”+”Will”+”Be”+”Vaccinated?”, Math Problem ”If”+”It”+”Becomes”+”Public”+”That”+”Vitamin”+”D”+”Only”+”Has”+”A”+“Third”+”Of”+”The”+”Effiacy”+”Of”+”Vaccines”+”Should”+”The”+”Store”+”Offer”+”Vitamin”+”D”?,”Vitamin”+”D”+”However”+”Is”+”A”+”Compliment”+”To”+”Getting”+”Vaccinated”, Whats Wrong With This Code “The”+”Covid”+”Death”+”Toll”+”In”+”Terms”+”Of”+”Pi”+”Is”+”1000”, “One”+”Comedian”+”Beleived”+”That”+”The”+”Last”+”Year”+”Was”+”One”+”And”+”Four”+”Twenty”+”Firsts”+”Of”+”A”+”Uraninan”+”Year”, Math Problem “A”+“Poll”+”Showing”+”Support”+”For”+”Pandemic”+”Meausres”+”Has”+”Decreased”+”From”+”46”+”To”+”43”+”Percent”+”And”+”The”+”Margin”+”Of”+”Error”+”Is”+”2.35”+”Percent”+”What”+”Is”+”The”+”Range?”, Math Problem ”If”+”The”+”Same”+”Poll”+”Showed”+”That”+”If”+”A”+”New”+”Variant”+”Came”+”Support”+”Would”+”Increase”+”By”+”3”+”Percent”+”What”+”Is”+”The”+”New”+”Range?”, Phrase ”It”+”Figures”+”A”+”Bubble”+”Would”+”Be”+”In”+”A”+”Round”+”Robin”+”Format”, Math Problem ”If”+”The”+”Same”+”Poll”+”Showed”+”That”+”If”+”A”+”New”+”Variant”+”Leaves”+”Support”+”Recedes”+”By”+”5”+”Percent”+”What”+”Is”+”The”+”New”+”Range?”,Sentence“Trump”+”Said”+”Covid”+”Made”+”Him”+”20”+”Years”+”Younger”,Sentence “Covid”+”Misinformation”+”Spreads”+”Just”+”As”+”Fast”+”As”+”Covid”+”Itself”
+Concatenated String1=Phrase “No”+”Covid”+”Was”+”Not”+”Cheated”+”Out”+”Of”+”The+”2020”+”Election”, 
+Concatenated String2=Phrase“Work”+”From”+”Home”+”Is”+”Not”+”Just”+”For”+”Rihanna”
+Concatenated String3=Phrase “No”+”Corona”+”Beer”+”Has”+”Nothing”+”To”+”Do”+”With”+”Corona”+”Virus”
+Concatenated String4=Phrase It”+”Is”+”Not”+”Fifth”+”Harmonies”+”Right”+”Either”
+Concatenated String5=Phrase ”At”+”Least”+”60”+”Minutes”+”Of”+”Exercise”+”Also”+”Helps”
+Concatenated String6= Math Problem ”If”+”A”+”Local”+”Stores”+”Vitamin”+”D”+”Supply”+”Of”+”100”+”Is”+”Sold”+”Out”+”300”+”Percent”+”After”+”A”+”Local”+”Influencer”+”Says”+”It”+”Works”+”Like”+”A”+”Charm”+”How”+”Many”+”People”+”Out”+”Of”+”1000”+”Will”+”Be”+”Vaccinated?
+Concatenated String7= Math Problem ”If”+”It”+”Becomes”+”Public”+”That”+”Vitamin”+”D”+”Only”+”Has”+”A”+“Third”+”Of”+”The”+”Effiacy”+”Of”+”Vaccines”+”Should”+”The”+”Store”+”Offer”+”Vitamin”+”D”?,
+Concatenated String8=Phrase“Vitamin”+”D”+”However”+”Is”+”A”+”Compliment”+”To”+”Getting”+”Vaccinated”
+Concatenated String9=Whats Wrong With This Code “The”+”Covid”+”Death”+”Toll”+”In”+”Terms”+”Of”+”Pi”+”Is”+”1000” 
+Concatenated String10=Phrase “One”+”Comedian”+”Beleived”+”That”+”The”+”Last”+”Year”+”Was”+”One”+”And”+”Four”+”Twenty”+”Firsts”+”Of”+”A”+”Uraninan”+”Year”
+Concatenated String11=Math Problem “A”+“Poll”+”Showing”+”Support”+”For”+”Pandemic”+”Meausres”+”Has”+”Decreased”+”From”+”46”+”To”+”43”+”Percent”+”And”+”The”+”Margin”+”Of”+”Error”+”Is”+”2.35”+”Percent”+”What”+”Is”+”The”+”Range?”
+Concatenated String12=Math Problem ”If”+”The”+”Same”+”Poll”+”Showed”+”That”+”If”+”A”+”New”+”Variant”+”Came”+”Support”+”Would”+”Increase”+”By”+”3”+”Percent”+”What”+”Is”+”The”+”New”+”Range?”
+Concatenated String13=Phrase ”It”+”Figures”+”A”+”Bubble”+”Would”+”Be”+”In”+”A”+”Round”+”Robin”+”Format”
+Concatenated String14=Math Problem ”If”+”The”+”Same”+”Poll”+”Showed”+”That”+”If”+”A”+”New”+”Variant”+”Leaves”+”Support”+”Recedes”+”By”+”5”+”Percent”+”What”+”Is”+”The”+”New”+”Range?
+Concatenated String15=Sentence “Trump”+”Said”+”Covid”+”Made”+”Him”+”20”+”Years”+”Younger”
+Concatenated String16=Sentence “Covid”+”Misinformation”+”Spreads”+”Just”+”As”+”Fast”+”As”+”Covid”+”Itself”
+Chapter=Document.Queryselector(Chapter)
+Chapter Inner Html
+Replace ‘ With/ 
+For Apostrophe In Covid Strings2Fan Voting
+Select Characters
+Edit Diffuse Property
+Desired Color=Green
+<P>String 1[Votes ‘String 1 ‘]}Votes</P>
+<P>String 2[Votes ‘String 2 ‘]}Votes</P>
+<P>String 3 [Votes ‘String 3 ‘]}Votes</P>
+<P>String 4 [Votes ‘String 4 ‘]}Votes</P>
+<P>String 5[Votes ‘String 5 ‘]}Votes</P>
+<P>String 6[Votes ‘String 6 ‘]}Votes</P>
+<P>String 7 [Votes ‘String 7 ‘]}Votes</P>
+<P>String 8[Votes ‘String 8 ‘]}Votes</P>
+<P>String 9 [Votes ‘String 9 ‘]}Votes</P>
+<P>String 10 [Votes ‘String 10 ‘]}Votes</P>
+<P>String 11[Votes ‘String 11 ‘]}Votes</P>
+<P>String 12 [Votes ‘String 12 ‘]}Votes</P>
+<P>String 13 [Votes ‘String 13 ‘]}Votes</P>
+<P>String 14 [Votes ‘String 14 ‘]}Votes</P>
+<P>String 15 [Votes ‘String 15 ‘]}Votes</>P
+<P>String 16 [Votes ‘String 16 ‘]}Votes</P>
+<Subheading.Html>
+First Round  Concatenated String Advancing 
+The Code Designed To Advancing Winning Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice(0,Num To 8)
+Return Advancing Strings 
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result 
+If Result Matchup1>=.5
+If Result Matchup2>=.5
+If Result Matchup3>=.5
+If Result Matchup4>=.5
+If Result Matchup5>=.5
+If Result Matchup6>=.5
+If Result Matchup7>=.5
+If Result Matchup8>=.5
+NewWindow=Window.Open(Current Round)
+CurrentRound=First Round
+Window.Close(Current Round)
+Window.Vote =Function(Index)
+Candidates [Index] Votes++;
+Next Round Button.AddEventListener(‘Click’,()
+If(CurrentRound <TotalRounds)
+CurrentRound++
+Else:
+Alert(‘Voting Has Ended)
+If NextRoundButton.Disabled=True
+Conclude Voting For  First Round
+<Header.Html>
+Second Round
+The Second Round Of Fan Voting
+Render Round
+RoundContainer.InnerHtml=<H2 Round {Second Round} <H2>
+Candidates ForEach((Candidate,Index)
+CandidateDiv.Innerhtml
+<P> {Candidate Name } {Candidate Votes} Votes </P>
+<Button On Click= “Vote {Index} >”Vote For {Candidate Name} </Button>
+Round Container.AppendChild(CandidateDiv)
+Add Event Listener (‘Dom Content Loaded)
+Let Current Round=Round2
+Total Rounds= 5
+Round Container=Document.Get Element By Id(‘Round-Container’)
+NextRoundButton=Document.Get Element By Id(‘Next-Round’)
+Window Open 
+Window Vote Function (Index)
+Candidates [Index] Votes++
+Commence Round .AddEventListener(Click)
+If Current Round ==Round 2:
+Commence Round 2
+Else:
+Remain 
+String Numbers[Non-Concatenated Strings :Name ‘String Pair1’ Votes 
+Name: ‘String Pair2’ Votes
+Name: ‘String Pair3’ Votes
+Name:’String Pair4’ Votes
+String Numbers[Concatenated Strings : Name ‘String Pair1’ Votes 
+Name: ‘String Pair 2’ Votes
+Name: ‘String Pair3’ Votes
+Name:’String Pair4’ Votes
+<Subheading.Html>
+Second Round Non-Concatenated String Advancing 
+The Code Designed To Advancing Winning Non-Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice(0,Num To 4)
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result 
+Return Advancing Strings 
+If Result Matchup1>=.5
+If Result Matchup2>=.5
+If Result Matchup3>=.5
+If Result Matchup4>=.5
+Concatenated Strings 
+Name String1 Votes
+Name String2 Votes
+Name String3 Votes
+Name String4 Votes
+Name String5 Votes
+Name String6 Votes
+Name String7 Votes
+Name String8 Votes
+<Subheading.Html>
+Second Round Concatenated String Advancing 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice(0,Num To 4)
+Return Advancing Strings
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result  
+If Result Matchup1>=.5
+If Result Matchup2>=.5
+If Result Matchup3>=.5
+If Result Matchup4>=.5
+NewWindow=Window.Open(Current Round)
+CurrentRound=First Round
+Window.Close(Current Round)
+Window.Vote =Function(Index)
+Candidates [Index] Votes++;
+Next Round Button.AddEventListener(‘Click’,()
+If(CurrentRound <TotalRounds)
+CurrentRound++
+Else:
+Alert(‘Voting Has Ended)
+If NextRoundButton.Disabled=True
+Conclude Voting For  Second Round
+<Header.Html>
+Third Round
+The Third Round Of Fan Voting
+Render Round
+RoundContainer.InnerHtml=<H3 Round {Third Round} <H3>
+Candidates ForEach((Candidate,Index)
+CandidateDiv.Innerhtml
+<P> {Candidate Name } {Candidate Votes} Votes </P>
+<Button On Click= “Vote {Index} >”Vote For {Candidate Name} </Button>
+Round Container.AppendChild(CandidateDiv)
+Add Event Listener (‘Dom Content Loaded)
+Let Current Round=Round3
+Total Rounds= 5
+Round Container=Document.Get Element By Id(‘Round-Container’)
+NextRoundButton=Document.Get Element By Id(‘Next-Round’)
+Window Open 
+Window Vote Function (Index)
+Candidates [Index] Votes++
+Commence Round .AddEventListener(Click)
+If Current Round ==Round 3:
+Commence Round 3
+Else:
+Remain 
+String Numbers[Non-Concatenated Strings :Name  ‘String Pair1’ Votes 
+Name: ‘String Pair2’ Votes
+String Numbers[Concatenated Strings : Name  ‘String Pair1’ Votes 
+Name: ‘String Pair2’ Votes
+<Subheading.Html>
+Third Round Non-Concatenated String Advancing 
+The Code Designed To Advancing Winning Non-Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings .Slice(0,Num To 2)
+Return Advancing Strings
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result  
+If Result Matchup1>=.5
+If Result Matchup2>=.5
+Name String1 Votes
+Name String2 Votes
+Name String3 Votes
+Name String4 Votes
+<Subheading.Html>
+Third Round Concatenated String Advancing 
+The Code Designed To Advancing Winning Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice(0,Num To 2)
+Return Advancing Strings 
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result 
+If Result Matchup1>=.5
+If Result Matchup2>=.5
+NewWindow=Window.Open(Current Round)
+Window.Close(Current Round)
+Window.Vote =Function(Index)
+Candidates [Index] Votes++;
+Next Round Button.AddEventListener(‘Click’,()
+If(CurrentRound <TotalRounds)
+CurrentRound++
+Else:
+Alert(‘Voting Has Ended)
+If NextRoundButton.Disabled=True
+Conclude Voting For Third Round 
+<Header.Html>
+Fourth Round
+The Fourth Round Of Fan Voting
+Render Round
+RoundContainer.InnerHtml=<H4 Round {Fourth Round} <H4>
+Candidates ForEach((Candidate,Index)
+CandidateDiv.Innerhtml
+<P> {Candidate Name } {Candidate Votes} Votes </P>
+<Button On Click= “Vote {Index} >”Vote For {Candidate Name}</Button>
+Round Container.AppendChild(CandidateDiv)
+Add Event Listener (‘Dom Content Loaded)
+Window Open 
+Window Vote Function (Index)
+Candidates [Index] Votes++
+Commence Round .AddEventListener(Click)
+If Current Round ==Round 4:
+Commence Round 4
+Else:
+Remain 
+Let Current Round=ROUND4
+Total Rounds=5
+Round Container=Document.Get Element By Id(‘Round-Container’)
+NextRoundButton=Document.Get Element By Id(‘Next-Round’)
+String Numbers[Non-Concatenated Strings : Name ‘String Pair1’ Votes 
+String Numbers[Concatenated Strings :Name ‘String Pair1’ Votes 
+Name String1 Votes
+Name String2 Votes
+<Subheading.Html>
+Fourth Round Non-Concatenated String Advancing 
+The Code Designed To Advancing Winning Non-Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2)Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice( Last Concatenated String Last Non-Concatenated String )
+Return Advancing Strings 
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result 
+If Result Matchup1>=.5
+Name String1 Votes
+Name String2 Votes
+<Subheading.Html>
+Fourth Round Concatenated String Advancing 
+The Code Designed To Advancing Winning Concatenated Strings 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice( Last Concatenated String Last Non-Concatenated String)
+Return Advancing Strings 
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result 
+If Result Matchup1>=.5
+NewWindow=Window.Open(Current Round)
+Window.Close(Current Round)
+Window.Vote =Function(Index)
+Candidates [Index] Votes++;
+Next Round Button.AddEventListener(‘Click’,()
+If(CurrentRound <TotalRounds)
+CurrentRound++
+Else:
+Alert(‘Voting Has Ended)
+If NextRoundButton.Disabled=True
+Conclude Voting For Fourth Round 
+<Header.Html>
+Fifth Round
+The Fifth Round Of Fan Voting
+Render Round
+RoundContainer.InnerHtml=<H5 Round {Fifth Round} <H5>
+Candidates ForEach((Candidate,Index)
+CandidateDiv.Innerhtml
+<P> {Candidate Name} {Candidate Votes} Votes</P>
+<Button On Click= “Vote {Index} >”Vote For {Candidate Name} </Button>
+Round Container.AppendChild(CandidateDiv)
+Add Event Listener (‘Dom Content Loaded)
+Window Open 
+Window Vote Function (Index)
+Candidates [Index] Votes++
+Commence Round .AddEventListener(Click)
+If Current Round ==Round 5:
+Commence Round 5
+Else:
+Remain 
+Let Current Round=Round5
+Total Rounds= 5
+Round Container=Document.Get Element By Id(‘Round-Container’)
+NextRoundButton=Document.Get Element By Id(‘Next-Round’)
+String Numbers[Name ‘String Pair Votes‘]
+Last Remaining Non-Concatenated String 
+Last Remaining Non-Concatenated String 
+<Subheading.Html>
+Covid Strings Fan Voting Victory
+The End Result Of Fan Voting 
+Advance To Next Round (Strings To Advance)
+Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
+Advancing Strings=Sorted Strings.Slice(Winner String)
+Return Winner
+Last Remaining Non-Concatenated String=Last Non-Concatenated String Variable Left In Fan Voting
+Last Remaining Concatenated String=Last Concatenated String Variable Left In Fan Voting
+Return Advancing Strings 
+Percentage Calculator
+Part=Number Of Votes Per Day In Round 
+Whole= Total Number Of Votes For String
+Calculate {Part,Whole}
+Return (Part/Whole)*100
+Display (Part,Whole)
+Percentage=This.Calculate(Part,Whole)
+Return {Part} Is {Percentage} Of {Whole}
+Result=PercentageCalculator.Display()
+Console Log Result 
+If Last Remaining Non-Concatenated String>=.5
+If Last Remaining Concatenated String>=.5
+NewWindow=Window.Open(Current Round)
+Window.Close(Current Round)
+Window.Vote =Function(Index)
+Candidates [Index] Votes++;
+Next Round Button.AddEventListener(‘Click’,()
+If(CurrentRound <TotalRounds)
+CurrentRound++
+Else:
+Alert(‘Voting Has Ended)
+If NextRoundButton.Disabled=True
+Conclude Voting For Fifth Round 
+Return Filename
