@@ -243,4 +243,32 @@ if user prompt covid strings team thought box ==correct answer
 return answer 
 else
 check answer
+<subheading.html>
+orange thought box
+thought box for orange rna messengers
+<doc type.html>
+<html lang “en”>
+<head>
+utf8
+“viewport” content=width device-width inital scale 1.0
+<title> thought box /<title>
+<style>
+body{
+font family arial sans serif
+display:flex
+justify content:center
+align items:center
+height 100vh;
+background-color:f0f0f0
+thought box 
+background color fff
+padding 20px
+border radius 10px
+box-shadow 00 10px rgba (0,0,0,0.1);
+display
+width 300px
+text align center
+thought box input 
+width  80%
+padding: 10px;
 return filename
