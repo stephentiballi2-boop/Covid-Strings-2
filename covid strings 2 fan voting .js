@@ -518,161 +518,161 @@ sorted strings=(strings.sort(string1,string2) strings 1 votes string 2 votes)
 advancing strings=sorted strings.slice(0,num to 2)
 return advancing strings 
 percentage calculator
-Part=Number Of Votes Per Day In Round 
-Whole= Total Number Of Votes For String
-Calculate {Part,Whole}
-Return (Part/Whole)*100
-Display (Part,Whole)
-Percentage=This.Calculate(Part,Whole)
-Return {Part} Is {Percentage} Of {Whole}
-Result=PercentageCalculator.Display()
-Console Log Result 
-If Result Matchup1>=.5
-If Result Matchup2>=.5
-NewWindow=Window.Open(Current Round)
-Window.Close(Current Round)
-Window.Vote =Function(Index)
-Candidates [Index] Votes++;
-Next Round Button.AddEventListener(‘Click’,()
-If(CurrentRound <TotalRounds)
-CurrentRound++
-Else:
-Alert(‘Voting Has Ended)
-If NextRoundButton.Disabled=True
-Conclude Voting For Third Round 
-<Header.Html>
-Fourth Round
-The Fourth Round Of Fan Voting
-Render Round
-RoundContainer.InnerHtml=<H4 Round {Fourth Round} <H4>
-Candidates ForEach((Candidate,Index)
-CandidateDiv.Innerhtml
-<P> {Candidate Name } {Candidate Votes} Votes </P>
-<Button On Click= “Vote {Index} >”Vote For {Candidate Name}</Button>
-Round Container.AppendChild(CandidateDiv)
-Add Event Listener (‘Dom Content Loaded)
-Window Open 
-Window Vote Function (Index)
-Candidates [Index] Votes++
-Commence Round .AddEventListener(Click)
-If Current Round ==Round 4:
-Commence Round 4
-Else:
-Remain 
-Let Current Round=ROUND4
-Total Rounds=5
-Round Container=Document.Get Element By Id(‘Round-Container’)
-NextRoundButton=Document.Get Element By Id(‘Next-Round’)
-String Numbers[Non-Concatenated Strings : Name ‘String Pair1’ Votes 
-String Numbers[Concatenated Strings :Name ‘String Pair1’ Votes 
-Name String1 Votes
-Name String2 Votes
-<Subheading.Html>
-Fourth Round Non-Concatenated String Advancing 
-The Code Designed To Advancing Winning Non-Concatenated Strings 
-Advance To Next Round (Strings To Advance)
-Sorted Strings=(Strings.Sort(String1,String2)Strings 1 Votes String 2 Votes)
-Advancing Strings=Sorted Strings.Slice( Last Concatenated String Last Non-Concatenated String )
-Return Advancing Strings 
-Percentage Calculator
-Part=Number Of Votes Per Day In Round 
-Whole= Total Number Of Votes For String
-Calculate {Part,Whole}
-Return (Part/Whole)*100
-Display (Part,Whole)
-Percentage=This.Calculate(Part,Whole)
-Return {Part} Is {Percentage} Of {Whole}
-Result=PercentageCalculator.Display()
-Console Log Result 
-If Result Matchup1>=.5
-Name String1 Votes
-Name String2 Votes
-<Subheading.Html>
-Fourth Round Concatenated String Advancing 
-The Code Designed To Advancing Winning Concatenated Strings 
-Advance To Next Round (Strings To Advance)
-Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
-Advancing Strings=Sorted Strings.Slice( Last Concatenated String Last Non-Concatenated String)
-Return Advancing Strings 
-Percentage Calculator
-Part=Number Of Votes Per Day In Round 
-Whole= Total Number Of Votes For String
-Calculate {Part,Whole}
-Return (Part/Whole)*100
-Display (Part,Whole)
-Percentage=This.Calculate(Part,Whole)
-Return {Part} Is {Percentage} Of {Whole}
-Result=PercentageCalculator.Display()
-Console Log Result 
-If Result Matchup1>=.5
-NewWindow=Window.Open(Current Round)
-Window.Close(Current Round)
-Window.Vote =Function(Index)
-Candidates [Index] Votes++;
-Next Round Button.AddEventListener(‘Click’,()
-If(CurrentRound <TotalRounds)
-CurrentRound++
-Else:
-Alert(‘Voting Has Ended)
-If NextRoundButton.Disabled=True
-Conclude Voting For Fourth Round 
-<Header.Html>
-Fifth Round
-The Fifth Round Of Fan Voting
-Render Round
-RoundContainer.InnerHtml=<H5 Round {Fifth Round} <H5>
-Candidates ForEach((Candidate,Index)
-CandidateDiv.Innerhtml
-<P> {Candidate Name} {Candidate Votes} Votes</P>
-<Button On Click= “Vote {Index} >”Vote For {Candidate Name} </Button>
-Round Container.AppendChild(CandidateDiv)
-Add Event Listener (‘Dom Content Loaded)
-Window Open 
-Window Vote Function (Index)
-Candidates [Index] Votes++
-Commence Round .AddEventListener(Click)
-If Current Round ==Round 5:
-Commence Round 5
-Else:
-Remain 
-Let Current Round=Round5
-Total Rounds= 5
-Round Container=Document.Get Element By Id(‘Round-Container’)
-NextRoundButton=Document.Get Element By Id(‘Next-Round’)
-String Numbers[Name ‘String Pair Votes‘]
-Last Remaining Non-Concatenated String 
-Last Remaining Non-Concatenated String 
-<Subheading.Html>
-Covid Strings Fan Voting Victory
-The End Result Of Fan Voting 
-Advance To Next Round (Strings To Advance)
-Sorted Strings=(Strings.Sort(String1,String2) Strings 1 Votes String 2 Votes)
-Advancing Strings=Sorted Strings.Slice(Winner String)
-Return Winner
-Last Remaining Non-Concatenated String=Last Non-Concatenated String Variable Left In Fan Voting
-Last Remaining Concatenated String=Last Concatenated String Variable Left In Fan Voting
-Return Advancing Strings 
-Percentage Calculator
-Part=Number Of Votes Per Day In Round 
-Whole= Total Number Of Votes For String
-Calculate {Part,Whole}
-Return (Part/Whole)*100
-Display (Part,Whole)
-Percentage=This.Calculate(Part,Whole)
-Return {Part} Is {Percentage} Of {Whole}
-Result=PercentageCalculator.Display()
-Console Log Result 
-If Last Remaining Non-Concatenated String>=.5
-If Last Remaining Concatenated String>=.5
-NewWindow=Window.Open(Current Round)
-Window.Close(Current Round)
-Window.Vote =Function(Index)
-Candidates [Index] Votes++;
-Next Round Button.AddEventListener(‘Click’,()
-If(CurrentRound <TotalRounds)
-CurrentRound++
-Else:
-Alert(‘Voting Has Ended)
-If NextRoundButton.Disabled=True
-Conclude Voting For Fifth Round 
-Return Filename
+part=number of votes per day in round 
+whole=total number of votes for string
+calculate {part,whole}
+return (part/whole)*100
+display (part,whole)
+percentage=this.calculate(part,whole)
+return {part} is {percentage} of {whole}
+result=percentagecalculator.display()
+console log result 
+if result matchup1>=.5
+if result matchup2>=.5
+newwindow=window.open(current round)
+window.close(current round)
+window.vote=function(index)
+candidates[index] votes++;
+next round button.addeventlistener(‘click’,()
+if(currentround<totalrounds)
+currentround++
+else:
+alert(‘voting has ended)
+if nextroundbutton.disabled=true
+conclude voting for third round 
+<header.html>
+fourth round
+the fourth round of fan voting
+render round
+roundcontainer.innerhtml=<h4 round {fourth round} <h4>
+candidates foreach((candidate,Index)
+candidatediv.innerhtml
+<p> {candidate name} {candidate votes} votes </p>
+<button on click= “vote {index} >”vote for {candidate name}</button>
+round container.appendchild(candidatediv)
+add event listener (‘dom content loaded)
+window open 
+window vote function (index)
+candidates [index] votes++
+commence round.addeventlistener(click)
+if current round==round 4:
+commence round 4
+else:
+remain 
+let current round=round4
+total rounds=5
+round container=document.get element by id(‘round-container’)
+nextroundbutton=document.get element by id(‘next-round’)
+string numbers[non-concatenated strings:name ‘string Pair1’ Votes 
+string numbers[concatenated Strings :Name ‘string Pair1’ Votes 
+name string1 votes
+name string2 votes
+<subheading.html>
+fourth round non-concatenated string advancing 
+the code designed to advancing winning non-concatenated strings 
+advance to next round (strings to advance)
+sorted strings=(strings.sort(string1,string2)strings 1 votes string 2 votes)
+advancing strings=sorted strings.slice(last concatenated string last non-concatenated string )
+return advancing strings 
+percentage calculator
+part=number of votes per day in round 
+whole=total number of votes for string
+calculate {part,whole}
+return (part/whole)*100
+display (part,whole)
+percentage=this.calculate(part,whole)
+return {part} is {percentage} of {whole}
+result=percentagecalculator.display()
+console log result 
+if result matchup1>=.5
+name string1 votes
+name string2 votes
+<subheading.html>
+fourth round concatenated string advancing 
+the code designed to advancing winning concatenated strings 
+advance to next round (strings to advance)
+sorted strings=(strings.sort(string1,string2)strings 1 votes string 2 votes)
+advancing strings=sorted strings.slice(last concatenated string last non-concatenated string)
+return advancing strings 
+percentage calculator
+part=number of votes per day in round 
+whole=total number of votes for string
+calculate {part,whole}
+return (part/whole)*100
+display (part,whole)
+percentage=this.calculate(part,whole)
+return {part} is {percentage} of {whole}
+result=percentagecalculator.display()
+console log result 
+if result matchup1>=.5
+newwindow=window.open(current round)
+window.close(current round)
+window.vote=function(index)
+candidates [index] votes++;
+next round button.addeventlistener(‘click’,()
+if(currentround <totalrounds)
+currentround++
+else:
+alert(‘voting has ended)
+if nextroundbutton.disabled=true
+conclude voting for fourth round 
+<header.html>
+fifth round
+the fifth round of fan voting
+render round
+roundcontainer.innerhtml=<h5 round {fifth round} <h5>
+candidates foreach((candidate,index)
+candidatediv.innerhtml
+<p> {candidate name} {candidate votes} votes</p>
+<button on click= “vote {index} >”vote for {candidate name} </button>
+round container.appendchild(candidatediv)
+add event listener (‘dom content loaded)
+window open 
+window vote function (index)
+candidates [index] votes++
+commence round .addeventlistener(click)
+if current round==round 5:
+commence round 5
+else:
+remain 
+let current round=round5
+total rounds=5
+round container=document.get element by id(‘round-container’)
+nextroundbutton=document.get element by id(‘next-round’)
+string numbers[name ‘string pair votes‘]
+last remaining non-concatenated string 
+last remaining non-concatenated string 
+<subheading.html>
+covid strings fan voting victory
+the end result of fan voting 
+advance to next round (strings to advance)
+sorted strings=(strings.sort(string1,string2) strings 1 votes string 2 votes)
+advancing strings=sorted strings.slice(winner string)
+return winner
+last remaining non-concatenated string=last non-concatenated string variable left in fan voting
+last remaining concatenated string=last concatenated string variable left in fan voting
+return advancing strings 
+percentage calculator
+part=number of votes per day in round 
+whole=total number of votes for string
+calculate {part,whole}
+return (part/whole)*100
+display (part,whole)
+percentage=this.calculate(part,whole)
+return {part} is {percentage} of {whole}
+result=percentagecalculator.display()
+console log result 
+if last remaining non-concatenated string>=.5
+if last remaining concatenated string>=.5
+newWwndow=window.open(current round)
+window.close(current round)
+window.vote =function(index)
+candidates [index] votes++;
+next round button.addeventlistener(‘click’,()
+if(currentround <totalrounds)
+currentround++
+else:
+alert(‘voting has ended)
+if nextroundbutton.disabled=true
+conclude voting for fifth round 
+return filename
