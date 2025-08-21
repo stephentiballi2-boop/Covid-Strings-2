@@ -108,7 +108,7 @@ matchup2=string 8 vs string 9
 <div class =”results”>
 <p> string 8 <span id= “votes string 8 >0</span> votes <p>
 <p> string 9 <span id= “votes string 9 >0</span> votes <p>
-<Div>
+<div>
 matchup3=string 7 vs string 10
 <button id vote string 7 “vote for string 7”  </button>
 <button id vote string 10 "vote for string 10”  </button>
@@ -129,7 +129,7 @@ matchup5=string 3 vs string 14
 <div class=”results”>
 <p>string 3 <span id=“votes string 3 >0</span> votes <p>
 <p> string 14 <span id=“votes string 14 >0</span> votes <p>
-<Div>
+<div>
 matchup6=string 4 vs string 13
 <button id vote string 4 “vote for string 4” </button>
 <button id vote string 13 “vote for string 13” </button>
@@ -158,7 +158,7 @@ matchup1=string 3 vs string 14
 <div class =”results”>
 <p> string 3 <span id= “votes string 3 >0</span> votes <p>
 <p> string 14 <span id= “votes string 14 >0</span> votes <p>
-<Ddiv>
+<div>
 matchup2=string 6 vs string 11
 <button id vote string 6 “vote for string 6” </button>
 <button id vote string 11 “vote for string 11” </button>
