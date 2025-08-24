@@ -14,7 +14,8 @@ heading variables
 the heading numbers that determine where each heading and subheading go 
 heading1=game plays overview
 heading2=covid strings calculator 
-heading3=thought box 
+heading3=covid strings calculator user input  
+heading4=thought box 
 subheading1=calculator interface 
 subheading2=calculator functionality
 subheading3=orange thought box
@@ -76,6 +77,20 @@ if operation==division
 return division
 else:
 remain
+<header.html>
+covid strings calculator user input 
+the user input for the covid strings calculator 
+<doctype.html>
+<html>
+<body>
+label for user actions in covid strings 
+input type=”Text” id=”name”
+<script>
+document.getelementbyid(name)add.eventlistener(input,event)
+console.log(current input+event.target.value)
+<script>
+<body>
+<html>
 user in select covid strings calculator
 <subheading.html>
 calculator interface
@@ -154,7 +169,6 @@ button class operator on click=choose operation (multiplication) button
 button class operator on click=choose operation (division) button
 button class =”button equal on click compute ()=</button>
 button class = “button clear” on click=clear display button>c</button>
-div
 div
 src= “calculator.js”>
 <script>
@@ -306,7 +320,7 @@ thought display.text content=thought input
 pink box
 thought box for pink covid disease fighters
 <doc type.html>
-<HTML lang “en”>
+<html lang “en”>
 <head>
 utf8
 “viewport” content=width device-width inital scale 1.0
